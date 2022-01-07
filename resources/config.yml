@@ -1,0 +1,47 @@
+#This plugin made by Fan
+#My Plugin Shop: https://discord.gg/v4hrQuxTrA
+#My Best Project:
+# - Heveen https://discord.gg/JgWRbPzpcD
+# - Solaria https://discord.gg/8uh5zGvcd
+
+# Economy Plugin Support: EconomyAPI
+Anvil:
+  #Choose methods for repair and rename | "xp" / "money" | for two methods: "all"
+  XpOrMoney: "xp"
+  # Priority if player have xp or money for repair or rename | "xp" / "rename"
+  XpOrMoneyPriority: "xp"
+  #activ or desactiv /anvil | permissions: advancedanvil.cmd
+  AnvilCmd: off
+  repairSucces: "You have succesfully repair your item"
+  repairError: "You don't have money or xp for repair !"
+  renameSucces: "You have succesfully rename your item"
+  renameError: "You don't have money or xp for rename !"
+  
+AnvilPrice:
+  Repair:
+    money: 10
+    xp: 10
+  Rename:
+    money: 5
+    xp: 5
+
+AnvilCommand:
+  Description: "Open anvil forms - AdvancedAnvil"
+  Command: "anvil"
+  aliases: "anv"
+
+AnvilUi:
+  Title: "AdvancedAnvil - Fan"
+  Contents: "Please Choose options !"
+  RepairButton: "Repair"
+  RenameButton: "Rename"
+  RepairUi:
+    Title: "AdvancedAnvil - Fan"
+    Contents: "level 10xp or 10 coins required"
+    Repair: "Yes, Repair"
+    Back: "§4Back"
+  RenameUi:
+    Title: "AdvancedAnvil - Fan"
+    Contents: "level 5xp or 5 coins required"
+    Rename: "Yes, Rename"
+    Back: "§4Back"
